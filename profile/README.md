@@ -41,12 +41,20 @@ Supabase (CDL + Auth)  ◄──►  Databricks (DWH + ETL)  ◄──►  MLS /
 
 | Layer | Technology |
 |---|---|
-| Frontend | React 18, Vite, TypeScript, shadcn/ui, Tailwind CSS |
-| Auth | OAuth 2.0 + PKCE, custom JWT, 5-level RBAC scopes |
-| Backend | Supabase Edge Functions (Deno), PostgreSQL, RLS |
-| Data | RESO DD 2.0 canonical schema, Databricks Bronze/Silver/Gold ETL |
-| AI/ML | AI Copilot (Next Best Action), RAG-powered assistants, lead scoring |
-| Infra | Self-hosted (Apache + PM2), GitHub webhook auto-deploy |
+| App Builder | [Lovable](https://lovable.dev) — AI-powered app builder |
+| Frontend | React 18, Vite, TypeScript, shadcn/ui, Tailwind CSS, TanStack Query |
+| Auth & IAM | OAuth 2.0 + PKCE, custom JWT, HMAC-SHA256, 5-level RBAC (self → team → global → org_admin → system_admin) |
+| Backend | Supabase Edge Functions (Deno/TypeScript), PostgreSQL 15, Row-Level Security |
+| Realtime | Supabase Realtime (WebSocket) — live updates across all apps |
+| Data Standard | [RESO DD 2.0](https://www.reso.org/) — canonical data layer, OData 4.0 Web API |
+| Data Pipeline | Databricks — Medallion ETL (Bronze → Silver → Gold), CDC every 15 min, Delta Lake |
+| AI/ML | AI Brokerage Copilot, RAG (retrieval-augmented generation), semantic search, lead scoring, recommendation engine, personalization |
+| NLP & LLM | OpenAI GPT-4, embeddings, AI agents for Next Best Action & document generation |
+| Channels | WhatsApp Business API (Twilio), Microsoft Graph (Exchange, Calendar, AD), Telegram Bot API, SMTP/IMAP |
+| Integrations | Qobrix REST API, Dash/Anywhere.com API, SIR syndication, Google/Meta Ads API |
+| Infra | Self-hosted Linux (Apache, PM2, Node.js), automated deploy via GitHub webhooks |
+| Observability | Structured logging, PM2 monitoring, Supabase Dashboard, Databricks job metrics |
+| i18n | i18next — English and Russian |
 
 ### Design Philosophy
 
