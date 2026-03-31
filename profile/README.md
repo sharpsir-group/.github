@@ -24,6 +24,8 @@
   <img src="https://img.shields.io/badge/Claude_Opus-CC785C?style=flat&logo=anthropic&logoColor=white" alt="Claude" />
   <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white" alt="Gemini" />
   <img src="https://img.shields.io/badge/HumaticAI-00C896?style=flat&logoColor=white" alt="HumaticAI" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white" alt="LangChain" />
+  <img src="https://img.shields.io/badge/Qwen3_Embeddings-6F42C1?style=flat&logoColor=white" alt="Qwen3" />
   <img src="https://img.shields.io/badge/Cursor_IDE-000000?style=flat&logo=cursor&logoColor=white" alt="Cursor" />
   <img src="https://img.shields.io/badge/Lovable-FF6B6B?style=flat&logo=heart&logoColor=white" alt="Lovable" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js" />
@@ -34,7 +36,7 @@
   <img src="https://img.shields.io/badge/Twilio-F22F46?style=flat&logo=twilio&logoColor=white" alt="Twilio" />
   <img src="https://img.shields.io/badge/Microsoft_Graph-0078D4?style=flat&logo=microsoft&logoColor=white" alt="Microsoft" />
   <img src="https://img.shields.io/badge/WhatsApp_API-25D366?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp" />
-  <img src="https://img.shields.io/badge/Telegram_Bot-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram" />
+
   <img src="https://img.shields.io/badge/OData_4.0-0078D4?style=flat&logo=odata&logoColor=white" alt="OData" />
   <img src="https://img.shields.io/badge/RESO_DD_2.0-1A1A2E?style=flat&logoColor=white" alt="RESO" />
   <img src="https://img.shields.io/badge/OAuth_2.0_+_PKCE-EB5424?style=flat&logo=auth0&logoColor=white" alt="OAuth" />
@@ -46,7 +48,7 @@
 ### Platform Architecture
 
 ```
-Channels (WhatsApp, Email, Web, Ads)
+Channels (WhatsApp, Email, Web, Microsoft 365, Ads)
   │
   ▼
 Matrix Apps ── built from a shared App Template (React + Vite + shadcn/ui)
@@ -79,9 +81,9 @@ Supabase (CDL + Auth)  ◄──►  Databricks (DWH + ETL)  ◄──►  MLS /
 | Data Standard | [RESO DD 2.0](https://www.reso.org/) — canonical data layer, OData 4.0 Web API |
 | Data Pipeline | Databricks — Medallion ETL (Bronze → Silver → Gold), CDC every 15 min, Delta Lake |
 | AI/ML | AI Brokerage Copilot, LangChain, RAG (retrieval-augmented generation), semantic search, lead scoring, recommendation engine, personalization |
-| NLP & LLM | OpenAI GPT-4, Claude (Anthropic), Google Gemini, embeddings, AI agents for Next Best Action & document generation |
+| NLP & LLM | OpenAI GPT-4, Claude (Anthropic), Google Gemini, Qwen3 embeddings, AI agents for Next Best Action & document generation |
 | Conversational AI | [HumaticAI](https://humantic.ai) — autonomous WhatsApp replies, personality profiling, lead qualification |
-| Channels | WhatsApp Business API (Twilio), Microsoft Graph (Exchange, Calendar, AD), Telegram Bot API, SMTP/IMAP |
+| Channels | WhatsApp Business API (Twilio), Microsoft Graph (Exchange, Calendar, AD), SMTP/IMAP |
 | Integrations | Qobrix REST API, Dash/Anywhere.com API, SIR syndication, Google/Meta Ads API |
 | Infra | Self-hosted Linux (Debian), Apache, PM2, Node.js, Python 3.13, automated deploy via GitHub webhooks |
 | Observability | Structured logging, PM2 monitoring, Supabase Dashboard, Databricks job metrics |
@@ -93,9 +95,8 @@ Supabase (CDL + Auth)  ◄──►  Databricks (DWH + ETL)  ◄──►  MLS /
 
 We didn't just build an AI agent — we built an **AI-native ecosystem** that elevates real estate brokerage to a completely new level. While others debated chatbot UX, we shipped 24 interconnected apps, autonomous assistants, and a data platform that runs a luxury brokerage across three countries.
 
-- **AI ecosystem, not just an agent** — Zoe (internal copilot), AI Web Assistant (visitor-facing), Blog Generator, HumaticAI (autonomous WhatsApp), lead scoring, property matching, semantic search, and recommendation engine — all wired into one platform, sharing context and learning from every interaction.
-- **Radical self-awareness** — our AI agents understand their own source code, their runtime harness, their documentation, and which model they're running. They can modify their own software and debug themselves.
-- **The phase shift from language to agency** — the ingredients for autonomous agents existed for years. We combined them into systems integrated into WhatsApp, Telegram, and daily broker workflows — making AI feel like a colleague that actually gets you and your clients.
+- **AI ecosystem, not just an agent** — Zoe (internal copilot), AI Web Assistant (visitor-facing), Blog Generator, HumaticAI (autonomous WhatsApp), lead scoring, property matching, semantic search, and recommendation engine — all wired into one platform, sharing context and learning from every interaction. This is **Sharp Matrix**.
+- **The phase shift from language to agency** — the ingredients for autonomous agents existed for years. We combined them into a platform integrated into WhatsApp, email, and daily broker workflows — making AI feel like a colleague that actually gets you and your clients.
 - **Creative problem-solving over programming** — our agents demonstrate world knowledge that was never explicitly coded. They figure things out, improvise tools, and solve problems we didn't anticipate.
 - **The hobbyist edge** — the magic is in rearranging existing components in new ways. A playful, iterative approach allows for more weirdness and experimentation than any corporate environment would permit.
 - **Vibe coding > structured development** — while big labs focused on language models, we built the **autonomous real estate platform** through iterative "vibe coding" that ships fast and learns faster.
