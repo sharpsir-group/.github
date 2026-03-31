@@ -89,26 +89,18 @@ Supabase (CDL + Auth)  ◄──►  Databricks (DWH + ETL)  ◄──►  MLS /
 | Observability | Structured logging, PM2 monitoring, Supabase Dashboard, Databricks job metrics |
 | i18n | i18next — English and Russian |
 
-### Our DNA
+### Sharp Matrix DNA
 
 > **We don't take ourselves too seriously. It's extremely difficult to compete with someone building for pleasure and fun.**
 
-We didn't just build an AI agent — we built an **AI-native ecosystem** that elevates real estate brokerage to a completely new level. While others debated chatbot UX, we shipped 24 interconnected apps, autonomous assistants, and a data platform that runs a luxury brokerage across three countries.
+Sharp Matrix is not a product — it's an **AI-native digital ecosystem** that elevates luxury real estate brokerage to a completely new level. While others debated chatbot UX, we shipped 24 interconnected apps, autonomous assistants, and a unified data platform that runs a brokerage across three countries. Everything here — every line of code, every AI model, every pipeline — exists to make Sharp Matrix better.
 
-- **AI ecosystem, not just an agent** — Zoe (internal copilot), AI Web Assistant (visitor-facing), Blog Generator, HumaticAI (autonomous WhatsApp), lead scoring, property matching, semantic search, and recommendation engine — all wired into one platform, sharing context and learning from every interaction. This is **Sharp Matrix**.
-- **The phase shift from language to agency** — the ingredients for autonomous agents existed for years. We combined them into a platform integrated into WhatsApp, email, and daily broker workflows — making AI feel like a colleague that actually gets you and your clients.
-- **Creative problem-solving over programming** — our agents demonstrate world knowledge that was never explicitly coded. They figure things out, improvise tools, and solve problems we didn't anticipate.
-- **The hobbyist edge** — the magic is in rearranging existing components in new ways. A playful, iterative approach allows for more weirdness and experimentation than any corporate environment would permit.
-- **Vibe coding > structured development** — while big labs focused on language models, we built the **autonomous real estate platform** through iterative "vibe coding" that ships fast and learns faster.
-
-### Design Philosophy
-
-> **The broker works with the client. The system works with the process.**
-
-- **RESO DD 2.0** as the canonical data layer — one field name everywhere, every app, every market
-- **Multi-app, single data truth** — no translation layers between apps
-- **Regional customization on a unified core** — Cyprus, Hungary, Kazakhstan share one platform
-- **AI Copilot at the heart** — context-aware Next Best Action, automated matching, document generation
+- **Platform, not a feature** — Sharp Matrix is Zoe (internal copilot), AI Web Assistant (visitor-facing), Blog Generator, HumaticAI (autonomous WhatsApp), lead scoring, property matching, semantic search, recommendation engine, 24 apps, and a RESO-standard data layer — all wired together, sharing context, learning from every interaction.
+- **From language to agency** — the ingredients for autonomous systems existed for years. Sharp Matrix combined them into a living platform integrated into WhatsApp, email, Microsoft 365, and daily broker workflows — where AI is not a tool you open, but a colleague that works alongside you.
+- **One data truth, three markets** — RESO DD 2.0 as the canonical layer. One field name everywhere, every app, every market. Cyprus, Hungary, Kazakhstan share one platform with regional configuration, not code forks.
+- **The broker works with the client. The system works with the process.** — AI Copilot handles data, timing, matching, and forecasting. Brokers focus on what only humans do well: build trust, negotiate, and close deals.
+- **Creative problem-solving over programming** — Sharp Matrix agents demonstrate world knowledge that was never explicitly coded. They figure things out, improvise, and solve problems we didn't anticipate.
+- **Vibe coding > structured development** — while big labs focused on language models, we built Sharp Matrix through iterative "vibe coding" — shipping fast, learning faster, and allowing more experimentation than any corporate environment would permit.
 
 ### Open Source
 
