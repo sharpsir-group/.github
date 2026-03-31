@@ -87,6 +87,18 @@ Supabase (CDL + Auth)  ◄──►  Databricks (DWH + ETL)  ◄──►  MLS /
 | Observability | Structured logging, PM2 monitoring, Supabase Dashboard, Databricks job metrics |
 | i18n | i18next — English and Russian |
 
+### Our DNA
+
+> **We don't take ourselves too seriously. It's extremely difficult to compete with someone building for pleasure and fun.**
+
+We believe the reason most companies haven't built what we're building is that they approach technology too formally. Our edge comes from a different mindset:
+
+- **Radical self-awareness** — our AI agents understand their own source code, their runtime harness, their documentation, and which model they're running. They can modify their own software and debug themselves.
+- **The phase shift of integration** — the ingredients for autonomous agents existed for years. We combined them into systems that moved from language to **agency** — integrated into WhatsApp, Telegram, and daily workflows, making AI feel like an assistant that actually gets you.
+- **Creative problem-solving over programming** — our agents demonstrate world knowledge that was never explicitly coded. They figure things out, improvise tools, and solve problems we didn't anticipate.
+- **The hobbyist edge** — the magic is in rearranging existing components in new ways. A playful, iterative approach allows for more weirdness and experimentation than any corporate environment would permit.
+- **Vibe coding > structured development** — while big labs focused on language models, we built the **autonomous assistant** through iterative, community-driven "vibe coding" that ships fast and learns faster.
+
 ### Design Philosophy
 
 > **The broker works with the client. The system works with the process.**
