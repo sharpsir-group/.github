@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://sharpsir.group">
-    <img src="https://raw.githubusercontent.com/sharpsir-group/.github/main/brand/logo-dark.svg" alt="Sharp International Realty" width="520" />
+    <img src="https://raw.githubusercontent.com/sharpsir-group/.github/main/brand/logo-blue.png" alt="Sharp Sotheby's International Realty" width="400" />
   </a>
 </p>
 
 <p align="center">
-  Technology powering real estate operations at <a href="https://sharpsir.group">Sharp International Realty</a>.
+  Technology powering real estate operations at <a href="https://sharpsir.group">Sharp Sotheby's International Realty</a>.
 </p>
 
 ---
