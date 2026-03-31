@@ -62,6 +62,8 @@ Supabase (CDL + Auth)  ◄──►  Databricks (DWH + ETL)  ◄──►  MLS /
 | Project | Description |
 |---|---|
 | **[GitHub Watcher](https://github.com/sharpsir-group/github-watcher)** | Zero-dependency webhook server that auto-deploys repos on `git push`. No CI needed. |
+| **[Matrix Platform KB](https://github.com/sharpsir-group/matrix-platform-kb)** | Full knowledge base for the Sharp Matrix platform — architecture, data models, business processes, RESO DD mapping. |
+| **[MLS 2.0 Pipeline](https://github.com/sharpsir-group/mls_2_0)** | Databricks ETL pipeline + RESO Web API for MLS data ingestion (Bronze/Silver/Gold). |
 
 ### Strategy Highlights (2026–2028)
 
