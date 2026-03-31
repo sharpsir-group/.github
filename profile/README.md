@@ -91,13 +91,14 @@ Supabase (CDL + Auth)  ◄──►  Databricks (DWH + ETL)  ◄──►  MLS /
 
 > **We don't take ourselves too seriously. It's extremely difficult to compete with someone building for pleasure and fun.**
 
-We believe the reason most companies haven't built what we're building is that they approach technology too formally. Our edge comes from a different mindset:
+We didn't just build an AI agent — we built an **AI-native ecosystem** that elevates real estate brokerage to a completely new level. While others debated chatbot UX, we shipped 24 interconnected apps, autonomous assistants, and a data platform that runs a luxury brokerage across three countries.
 
+- **AI ecosystem, not just an agent** — Zoe (internal copilot), AI Web Assistant (visitor-facing), Blog Generator, HumaticAI (autonomous WhatsApp), lead scoring, property matching, semantic search, and recommendation engine — all wired into one platform, sharing context and learning from every interaction.
 - **Radical self-awareness** — our AI agents understand their own source code, their runtime harness, their documentation, and which model they're running. They can modify their own software and debug themselves.
-- **The phase shift of integration** — the ingredients for autonomous agents existed for years. We combined them into systems that moved from language to **agency** — integrated into WhatsApp, Telegram, and daily workflows, making AI feel like an assistant that actually gets you.
+- **The phase shift from language to agency** — the ingredients for autonomous agents existed for years. We combined them into systems integrated into WhatsApp, Telegram, and daily broker workflows — making AI feel like a colleague that actually gets you and your clients.
 - **Creative problem-solving over programming** — our agents demonstrate world knowledge that was never explicitly coded. They figure things out, improvise tools, and solve problems we didn't anticipate.
 - **The hobbyist edge** — the magic is in rearranging existing components in new ways. A playful, iterative approach allows for more weirdness and experimentation than any corporate environment would permit.
-- **Vibe coding > structured development** — while big labs focused on language models, we built the **autonomous assistant** through iterative, community-driven "vibe coding" that ships fast and learns faster.
+- **Vibe coding > structured development** — while big labs focused on language models, we built the **autonomous real estate platform** through iterative "vibe coding" that ships fast and learns faster.
 
 ### Design Philosophy
 
