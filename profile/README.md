@@ -36,6 +36,8 @@
   <img src="https://img.shields.io/badge/Twilio-F22F46?style=flat&logo=twilio&logoColor=white" alt="Twilio" />
   <img src="https://img.shields.io/badge/Microsoft_Graph-0078D4?style=flat&logo=microsoft&logoColor=white" alt="Microsoft" />
   <img src="https://img.shields.io/badge/WhatsApp_API-25D366?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+  <img src="https://img.shields.io/badge/MCP-000000?style=flat&logo=anthropic&logoColor=white" alt="MCP" />
+  <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white" alt="Zod" />
 
   <img src="https://img.shields.io/badge/OData_4.0-0078D4?style=flat&logo=odata&logoColor=white" alt="OData" />
   <img src="https://img.shields.io/badge/RESO_DD_2.0-1A1A2E?style=flat&logoColor=white" alt="RESO" />
@@ -84,6 +86,7 @@ Supabase (CDL + Auth)  ◄──►  Databricks (DWH + ETL)  ◄──►  MLS /
 | NLP & LLM | OpenAI GPT-4, Claude (Anthropic), Google Gemini, Qwen3 embeddings, AI agents for Next Best Action & document generation |
 | Conversational AI | [HumaticAI](https://humantic.ai) — autonomous WhatsApp replies, personality profiling, lead qualification |
 | Channels | WhatsApp Business API (Twilio), Microsoft Graph (Exchange, Calendar, AD), SMTP/IMAP |
+| MCP Servers | [Model Context Protocol](https://modelcontextprotocol.io/) — AI tools for CRM access (Qobrix), RESO-aligned workflows, schema introspection |
 | Integrations | Qobrix REST API, Dash/Anywhere.com API, SIR syndication, Google/Meta Ads API |
 | Infra | Self-hosted Linux (Debian), Apache, PM2, Node.js, Python 3.13, automated deploy via GitHub webhooks |
 | Observability | Structured logging, PM2 monitoring, Supabase Dashboard, Databricks job metrics |
@@ -106,9 +109,10 @@ Sharp Matrix is not a product — it's an **AI-native digital ecosystem** that e
 
 | Project | Description |
 |---|---|
-| **[GitHub Watcher](https://github.com/sharpsir-group/github-watcher)** | Zero-dependency webhook server that auto-deploys repos on `git push`. No CI needed. |
-| **[Matrix Platform KB](https://github.com/sharpsir-group/matrix-platform-kb)** | Full knowledge base for the Sharp Matrix platform — architecture, data models, business processes, RESO DD mapping. |
+| **[Qobrix CRM MCP](https://github.com/sharpsir-group/qobrix-crm-mcp)** | Read-only MCP server for Qobrix CRM — 42 tools across 13 entity groups, aligned with RESO DD 2.0 canonical workflows. 148 tests. |
 | **[MLS 2.0 Pipeline](https://github.com/sharpsir-group/mls_2_0)** | Databricks ETL pipeline + RESO Web API for MLS data ingestion (Bronze/Silver/Gold). |
+| **[Matrix Platform KB](https://github.com/sharpsir-group/matrix-platform-kb)** | Full knowledge base for the Sharp Matrix platform — architecture, data models, business processes, RESO DD mapping. |
+| **[GitHub Watcher](https://github.com/sharpsir-group/github-watcher)** | Zero-dependency webhook server that auto-deploys repos on `git push`. No CI needed. |
 
 ### Strategy Highlights (2026–2028)
 
